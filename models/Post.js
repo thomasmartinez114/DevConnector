@@ -28,11 +28,11 @@ comments: {
     {
         user: {
             type: Schema.Types.ObjectId,
-                ref: 'users'
+            ref: 'users'
         },
         text: {
             type: String,
-                required: true
+            required: true
         },
         name: {
             type: String
@@ -42,13 +42,13 @@ comments: {
         },
         date: {
             type: Date,
-                default: Date.now
+            default: Date.now
         }
     }
 },
 date: {
     type: Date,
-        default: Date.now
+    default: Date.now
 }
 });
 

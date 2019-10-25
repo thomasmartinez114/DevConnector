@@ -6,12 +6,15 @@ const Navbar = () => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-link'></i> Co-App
+          <i className='fas fa-record-vinyl'></i> Milk-Crate
         </Link>
       </h1>
       <ul>
         <li>
-          <a href='!#'>Developers</a>
+          <a href='!#'>Musicians</a>
+        </li>
+        <li>
+          <a href='!#'>Upload</a>
         </li>
         <li>
           <Link to='/register'>Register</Link>
